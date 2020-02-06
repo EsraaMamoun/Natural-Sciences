@@ -1,11 +1,9 @@
-console.log("I Love JS");
-
+console.log("I Like JS");
 
 var username;
 var message;
 username = 'Hello';
 message = 'WELCOME TO PHYSICS LECTURE WEB';
 
-console.log(username)
-
+console.log(username);
 

@@ -1,18 +1,9 @@
-// var lab = new subject();
-// console.log(today);
-// var score = inClass();
-// var status;
+var pass=prompt ("Did you pass: yes or no");
+if(pass=="yes"){alert("goog job");}
+else{alert("oh nooooo!");}
 
-var score = prompt("what is eoyur score?");
-var status;
-if (score >= 50) {
-    status = 'pass';
-}
-
-else if (score <= 50) {
-    status = 'fail';
-}
-
-
-document.write('<h3>'+greeting+'<h3>');
-
+var pass_mark=prompt("What is the passing grade?");
+while(pass_mark != 50){
+    pass_mark=prompt("no try again");
+};
+alert("yes its 50");
